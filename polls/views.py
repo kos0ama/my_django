@@ -4,10 +4,10 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 
-def index2(request):
-        return HttpResponse("This is a test.")
-
 def index(request):
 	return HttpResponse("Hello, world. You're at the polls index.")
+
+def index2(request):
+	return HttpResponse("URLs is /2 .あ")
 
 
